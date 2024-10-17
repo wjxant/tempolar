@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apuntes de Desarrollo Web</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f9;
+      color: #333;
+      display: flex;
+    }
+    
+    /* Estilos de la barra lateral */
+    .sidebar {
+      width: 250px;
+      background-color: #333;
+      color: white;
+      position: fixed;
+      height: 100vh;
+      padding-top: 20px;
+    }
+
+    .sidebar h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .sidebar ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .sidebar ul li {
+      padding: 15px;
+      text-align: center;
+    }
+
+    .sidebar ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 1.1rem;
+      display: block;
+      transition: background-color 0.3s ease;
+    }
+
+    .sidebar ul li a:hover {
+      background-color: #575757;
+    }
+
+    /* Estilos del contenido principal */
+    .content {
+      margin-left: 250px;
+      padding: 20px;
+      width: 100%;
+    }
+
+    .content h1 {
+      font-size: 2.5rem;
+      color: #ff6347;
+    }
+
+    .content p {
+      font-size: 1.2rem;
+      line-height: 1.6;
+    }
+
+    .content h3 {
+      margin-top: 30px;
+      color: #333;
+      border-bottom: 2px solid #ff6347;
+      padding-bottom: 10px;
+    }
+
+    .content ul {
+      list-style-type: disc;
+      margin-left: 20px;
+    }
+
+    .content li {
+      margin: 10px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Barra lateral de navegación -->
+  <div class="sidebar">
+    <h2>Índice</h2>
+    <ul>
+      <li><a href="#introduccion">Introducción</a></li>
+      <li><a href="#html">HTML Básico</a></li>
+      <li><a href="#css">CSS Básico</a></li>
+      <li><a href="#javascript">JavaScript</a></li>
+      <li><a href="#conclusion">Conclusión</a></li>
+    </ul>
+  </div>
+
+  <!-- Contenido principal -->
+  <div class="content">
+    <h1>Apuntes de Desarrollo Web</h1>
+    <p>Estos apuntes cubren los conceptos básicos de desarrollo web, desde la estructura HTML hasta la implementación de interactividad con JavaScript. A continuación encontrarás los temas principales que te ayudarán a comprender los fundamentos del desarrollo web moderno.</p>
+
+    <h3 id="introduccion">Introducción</h3>
+    <p>El desarrollo web es un campo amplio que abarca muchas tecnologías. Para empezar, es importante entender los tres pilares principales: HTML, CSS, y JavaScript. Cada uno de estos lenguajes tiene un propósito específico en el desarrollo de una página web.</p>
+
+    <h3 id="html">HTML Básico</h3>
+    <p>HTML (HyperText Markup Language) es el lenguaje de marcado utilizado para estructurar el contenido de una página web. A continuación, algunos conceptos básicos:</p>
+    <ul>
+      <li><strong>Etiquetas:</strong> Las etiquetas HTML definen los diferentes elementos de una página, como encabezados, párrafos y enlaces.</li>
+      <li><strong>Atributos:</strong> Las etiquetas pueden tener atributos que proporcionan información adicional, como `id` o `class`.</li>
+      <li><strong>Elementos comunes:</strong> `<p>` para párrafos, `<a>` para enlaces, `<div>` para contenedores, etc.</li>
+    </ul>
+
+    <h3 id="css">CSS Básico</h3>
+    <p>CSS (Cascading Style Sheets) se utiliza para dar estilo y formato al contenido estructurado por HTML. Algunos conceptos importantes:</p>
+    <ul>
+      <li><strong>Colores y fuentes:</strong> CSS permite cambiar los colores de texto, fondos y fuentes para hacer que una página sea visualmente atractiva.</li>
+      <li><strong>Diseño:</strong> El uso de `flexbox` y `grid` permite organizar los elementos de manera flexible y responsiva.</li>
+      <li><strong>Clases y selectores:</strong> Con CSS puedes aplicar estilos a elementos específicos utilizando clases (`.clase`) e identificadores (`#id`).</li>
+    </ul>
+
+    <h3 id="javascript">JavaScript</h3>
+    <p>JavaScript es el lenguaje de programación que añade interactividad a las páginas web. Desde validaciones de formularios hasta complejas interacciones con el usuario, JavaScript lo hace posible. Aquí algunos ejemplos:</p>
+    <ul>
+      <li><strong>Eventos:</strong> Responder a eventos del usuario como clics, movimientos del mouse, o cambios en campos de texto.</li>
+      <li><strong>Manipulación del DOM:</strong> Cambiar el contenido o el estilo de los elementos HTML dinámicamente.</li>
+      <li><strong>Funciones:</strong> Bloques reutilizables de código que ejecutan una tarea específica.</li>
+    </ul>
+
+    <h3 id="conclusion">Conclusión</h3>
+    <p>Estos apuntes te proporcionan una introducción sólida a los fundamentos del desarrollo web. A medida que avances en tu aprendizaje, es importante profundizar en cada una de estas tecnologías y aprender a combinarlas para crear experiencias web ricas e interactivas.</p>
+  </div>
+
+</body>
+</html>
